@@ -1,0 +1,49 @@
+
+.carousel-inner {
+    max-height: 39rem;
+
+}
+
+
+#depto{
+    background: rgb(255,255,255);
+    background:  linear-gradient(0deg, rgba(255,255,255,1) 0%, rgb(125, 139, 148) 57%);
+    background-repeat: repeat-x;
+    background-size: 75%;
+    margin-top: -20px;
+}
+
+#ribbon{
+    background-color: rgb(153, 149, 149);
+    background-image: rgb(207, 207, 207) 25px;
+}
+#ribbon::after{
+    content: '';
+    background-color: transparent;
+    display: block;
+    height: 40px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+    margin-top: -40px;
+}
+
+
+.card-border{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+
+.card-border:hover{
+    transform: scale(1.05);
+}
+
+
+#footer{
+    background: url(../img/bg-04.png);
+    background-color: rgb(125, 139, 148);
+    background-size: 50px 50px;
+}
